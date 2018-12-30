@@ -59,11 +59,10 @@ public class BuffCallerTest {
 ## output
 ```
 Running one.moon.sun.BuffCallerTest
-15:32:40.549 [Thread-0] DEBUG one.moon.sun.BuffCallerTest - consume args: [hello, 1]; [hello, 2]; [hell                                                 o, 3, 4]; [a]; [b];
-15:32:40.580 [Thread-0] DEBUG one.moon.sun.BuffCallerTest - consume args: [c]; [d]; [e];
-15:32:43.570 [Thread-0] DEBUG one.moon.sun.BuffCallerTest - consume args: [hello, 5, 6]; [hello, 7, 8];                                                      [hello, 9]; [f]; [g];
-15:32:43.601 [Thread-0] DEBUG one.moon.sun.BuffCallerTest - consume args: [h]; [i]; [j]; [k];
-15:32:46.561 [Thread-0] DEBUG one.moon.sun.BuffCallerTest - consume args: [hello, 10];
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.358 sec
-
+15:39:03.693 [Thread-0] DEBUG one.moon.sun.BuffCallerTest - consume args: [hello, 1]; [hello, 2]; [hello, 3, 4]; [a]; [b];
+15:39:03.725 [Thread-0] DEBUG one.moon.sun.BuffCallerTest - consume args: [c]; [d]; [e];
+15:39:06.693 [Thread-0] DEBUG one.moon.sun.BuffCallerTest - consume args: [hello, 5, 6]; [hello, 7, 8]; [hello, 9];
+15:39:06.709 [Thread-0] DEBUG one.moon.sun.BuffCallerTest - consume args: [f]; [g]; [h]; [i]; [j];
+15:39:06.756 [Thread-0] DEBUG one.moon.sun.BuffCallerTest - consume args: [k];
+15:39:09.697 [Thread-0] DEBUG one.moon.sun.BuffCallerTest - consume args: [hello, 10];
 ```
