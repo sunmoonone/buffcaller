@@ -2,6 +2,18 @@
 
 buff method call arguments to a queue and then consume arguments in batch
 
+## usage:
+
+```java
+    caller = new BuffCaller(long callInterval, int callOnEntryCount, Consumer<List<Object[]>> consumer); 
+
+    caller.call(Object... args);
+
+```
+
+
+## unitest:
+
 ```java
 
 public class BuffCallerTest {
@@ -9,6 +21,8 @@ public class BuffCallerTest {
 
     @Test
     public void test() throws InterruptedException {
+
+        //invoke every 20milis or if buff.size>=5
         BuffCaller buffCaller = new BuffCaller(
                 20, 5,
                 objects -> {
